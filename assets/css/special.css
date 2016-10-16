@@ -1,0 +1,462 @@
+body {
+    overflow-x: hidden;
+}
+
+
+
+/**删除线*/
+.line-through {
+    text-decoration: line-through;
+    text-decoration-color: #fff100;
+}
+
+/**特卖列表*/
+.special-sale-wrapper {
+    background-color: #fff100;
+}
+
+.special-sale-box {
+    width: 1210px;
+    height: 707px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.special-sale-goods > a {
+    width: 290px;
+    padding: 0;
+    margin: 0;
+}
+
+.special-sale-goods > ul {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.special-sale-box li {
+    position: relative;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.special-sale-box li:last-child {
+    margin-right: 0px;
+}
+
+.special-sale-box li > .goods {
+    background: #e50112;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.special-sale-box li > .goods > .title {
+    font-size: 20px;
+}
+
+.special-sale-box li > .goods > .price {
+    font-size: 16px;
+}
+
+/**团购品牌*/
+.brand-box, .contact-box {
+    background-color: #ffffff;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.brand-price-download {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.brand-price-download > a {
+    color: #ff0000;
+    font-size: 30px;
+    font-family: "Heiti TC";
+}
+
+.brand-box > .brand-item {
+    margin-bottom: 14px;
+    height: 190px;
+}
+
+.brand-box > .brand-item > .icon {
+    float: left;
+    display: block;
+    background-color: #e50015;
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    margin-right: 14px;
+    color: #fff;
+    font-size: 24px;
+    position: relative;
+    background-position: center 38px;
+    background-repeat: no-repeat;
+    padding-top: 125px;
+}
+
+.brand-box > .brand-item  .icon:after {
+    border-left: 0;
+    border-right: 10px solid #ffffff;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    height: 0;
+    width: 0;
+    top: 85px;
+    content: "";
+    right: 0;
+    margin-left: -5px;
+    position: absolute;
+
+    /*background-image: url(../../assets/images/arrow-right.png);*/
+    /*background-position: right center;*/
+    /*background-repeat: no-repeat;*/
+}
+
+
+.arrow-right {
+    width:0;
+    height:0;
+    border-top:50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid green;
+}
+
+
+.brand-box > .brand-item > .icon-fitup-service {
+    background-image: url("../../assets/icons/brand-fitup-service.png");
+}
+
+.brand-box > .brand-item > .icon-kitchen {
+    background-image: url("../../assets/icons/brand-kitchen.png");
+    background-color: #036eb6;
+}
+
+/*家具家电*/
+.brand-box > .brand-item > .icon-furniture {
+    background-image: url("../../assets/icons/brand-furniture.png");
+    background-color: #8ec220;
+}
+
+/*家具家电*/
+.brand-box > .brand-item > .icon-doors {
+    background-image: url("../../assets/icons/brand-door.png");
+    background-color: #f7b52d;
+}
+
+/*地板瓷砖*/
+.brand-box > .brand-item > .icon-tiling {
+    background-image: url("../../assets/icons/brand-tiling.png");
+    background-color: #dadf00;
+}
+
+/*其它*/
+.brand-box > .brand-item > .icon-other {
+    background-image: url("../../assets/icons/brand-other.png");
+    background-color: #00a199;
+}
+
+.brand-box > .brand-item > .brand-item-text {
+    float: left;
+    width: 990px;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+.brand-box > .brand-item > .brand-item-text i {
+    float: left;
+    display: block;
+    width: 190px;
+    height: 190px;
+}
+
+.brand-box > .brand-item > .brand-item-text ul {
+    float: left;
+    height: 100%;
+    width: 780px;
+    padding: 24px 35px;
+}
+
+.brand-box > .brand-item > .brand-item-text ul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.brand-box > .brand-item > .brand-item-text > ul.brand-kitchen-content {
+    padding: 10px 35px;
+}
+
+.brand-box > .brand-item > .brand-item-text > ul.brand-kitchen-content > li {
+    line-height: 24px;
+}
+
+/**联系方式*/
+.contact-box .nav-tabs {
+    border-bottom: 1px solid #e70012;
+}
+
+.contact-box .nav-tabs > li.active > a,
+.contact-box .nav-tabs > li.active > a:focus,
+.contact-box .nav-tabs > li.active > a:hover {
+    color: #ffffff;
+    cursor: default;
+    background-color: #e70012;
+    border: 1px solid #e70012;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+}
+
+.contact-box .nav > li > a {
+    color: #5a3f2e;
+}
+
+.contact-box .tab-content {
+    padding: 15px 25px;
+}
+
+/**活动信息*/
+.activity-date {
+    float:left;
+    width: 320px;
+    position: absolute;
+    color:#ffffff;
+    font-size:14px;
+}
+.activity-info {
+    float:left;
+    width: 320px;
+    position: absolute;
+    color:#ffffff;
+    font-size:14px;
+}
+.activity-info dt {
+    width: 80px;
+}
+
+.activity-info dd {
+    margin-left: 80px;
+}
+
+
+
+.signup-box {
+    position: fixed;
+    width: 100%;
+    display: block;
+    z-index: 6;
+    bottom: 0;
+    left: 0;
+    height: 150px;
+}
+
+.signup-box .signup-back {
+    position: relative;
+    height: 150px;
+    background: rgba(51, 51, 51, 0.9);
+    background: #333\9;
+    margin-top: 0px;
+}
+
+
+.signup-box .signup-back-text {
+    min-width: 1210px !important;
+    margin: 0 auto;
+    position: absolute;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../../assets/images/signup-logo.png) no-repeat left top;
+}
+
+.signup-box .signup-back-default {
+    cursor: pointer;
+}
+
+
+.signup-box .signup-back-text a {
+    display: block;
+    float: left;
+    width: 205px;
+    height: 150px;
+    margin-top: 0px;
+    background: url(../../assets/images/signup-submit.jpeg) no-repeat center left;
+}
+
+.signup-box .form-group input {
+    border: 1px solid #fff;
+    background: rgba(51, 51, 51, 0.2);
+    color: #fff;
+}
+
+.signup-box .tel {
+    color:#fff;
+    font-size:36px;
+    padding: 20px 0;
+}
+.signup-box .form-box {
+    padding: 20px 0;
+}
+
+
+.signup-box .control-label {
+    color: #fff;
+    font-size:16px;
+}
+.signup-box .form-group .message {
+    color: #fff;
+    font-size:18px;
+}
+.signup-box .box-close > img {
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .activity-date {
+        left: 170px;
+        top:25px;
+        font-size:14px;
+
+    }
+    .activity-info {
+        left: 120px;
+        top:140px;
+        font-size:12px;
+    }
+
+    .activity-info dd {
+        margin-left:0px;
+    }
+}
+@media (min-width: 768px) {
+    .activity-date {
+        left: 170px;
+        top:25px;
+        font-size:14px;
+
+    }
+    .activity-info {
+        left: 120px;
+        top:140px;
+        font-size:12px;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .activity-date {
+        left: 230px;
+        top:35px;
+        font-size:16px;
+
+    }
+    .activity-info {
+        left: 150px;
+        top:180px;
+        font-size:14px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner-box {
+        /*margin: 0px auto 0px -240.5px;*/
+    }
+
+    .activity-date {
+        left: 200px;
+        top:65px;
+
+    }
+    .activity-info {
+        left: 250px;
+        top:360px;
+        font-size:16px;
+    }
+}
+
+/*w1024px body, .w1280px body, .w1440px body, .w1600px body, .w1920px*/
+
+@media (min-width: 1280px) {
+    .activity-date {
+        left: 280px;
+        top:40px;
+        font-size:20px;
+
+    }
+    .activity-info {
+        left: 240px;
+        top:240px;
+        font-size:14px;
+    }
+}
+
+
+@media (min-width: 1360px) {
+    .activity-date {
+        left: 310px;
+        top:45px;
+        font-size:20px;
+
+    }
+    .activity-info {
+        left: 240px;
+        top:250px;
+        font-size:14px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .activity-date {
+        left: 310px;
+        top:45px;
+        font-size:24px;
+
+    }
+    .activity-info {
+        left: 300px;
+        top:260px;
+        font-size:16px;
+    }
+}
+
+
+@media (min-width: 1600px) {
+    .activity-date {
+        left: 350px;
+        top:55px;
+        font-size:24px;
+
+    }
+    .activity-info {
+        left: 350px;
+        top:300px;
+        font-size:16px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .activity-date {
+        left: 430px;
+        top:65px;
+        font-size:24px;
+
+    }
+    .activity-info {
+        left: 400px;
+        top:360px;
+        font-size:16px;
+    }
+}
