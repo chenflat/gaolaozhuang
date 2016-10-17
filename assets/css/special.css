@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    font-family: "Microsoft YaHei";
 }
 
 .banner-box {
@@ -8,6 +9,14 @@ body {
     max-height:904px;
     height:904px;
 }
+
+.banner-box1 {
+    background:url("../../assets/images/banner2.jpg") no-repeat top center;
+    max-width: 1920px;
+    max-height:903px;
+    height:903px;
+}
+
 
 /**删除线*/
 .line-through {
@@ -22,7 +31,7 @@ body {
 
 .special-sale-box {
     width: 1210px;
-    height: 590px;
+    height: 580px;
     margin: 0 auto;
     text-align: center;
 }
@@ -77,6 +86,8 @@ body {
 .contact-box {
     margin-bottom: 180px;
 }
+
+
 .brand-price-download {
     text-align: center;
     margin-bottom: 15px;
@@ -98,7 +109,7 @@ body {
     display: block;
     background-color: #e50015;
     width: 190px;
-    height: 190px;
+    height: 65px;
     text-align: center;
     margin-right: 14px;
     color: #fff;
@@ -121,10 +132,6 @@ body {
     right: 0;
     margin-left: -5px;
     position: absolute;
-
-    /*background-image: url(../../assets/images/arrow-right.png);*/
-    /*background-position: right center;*/
-    /*background-repeat: no-repeat;*/
 }
 
 
@@ -185,9 +192,9 @@ body {
 }
 
 .brand-box > .brand-item > .brand-item-text ul {
-    float: left;
+    /*float: left;*/
     height: 100%;
-    width: 780px;
+    /*width: 780px;*/
     padding: 24px 35px;
 }
 
@@ -197,6 +204,7 @@ body {
     white-space: nowrap;
     line-height: 36px;
     font-size: 14px;
+    padding-left:15px;
 }
 
 .brand-box > .brand-item > .brand-item-text > ul.brand-kitchen-content {
@@ -205,6 +213,7 @@ body {
 
 .brand-box > .brand-item > .brand-item-text > ul.brand-kitchen-content > li {
     line-height: 24px;
+
 }
 
 /**联系方式*/
@@ -229,23 +238,27 @@ body {
 
 .contact-box .tab-content {
     padding: 15px 25px;
+    height: 250px;
 }
+
 
 /**活动信息*/
 .activity-date {
-    float:left;
-    width: 320px;
-    position: absolute;
     color:#ffffff;
-    font-size:14px;
+    font-size:22px;
+    height:170px;
+    line-height:170px;
+    padding-left:100px;
 }
 .activity-info {
-    float:left;
-    width: 320px;
-    position: absolute;
     color:#ffffff;
     font-size:14px;
 }
+
+.activity-info .dl-horizontal  {
+    margin-top: 200px;
+}
+
 .activity-info dt {
     width: 80px;
 }
@@ -291,44 +304,80 @@ body {
 }
 
 
-.signup-box .signup-back-text a {
+.signup-box .signup-back-text a,.signup-box .signup-back-default {
     display: block;
     float: left;
-    width: 205px;
+    width: 165px;
     height: 150px;
     margin-top: 0px;
-    background: url(../../assets/images/signup-submit.jpeg) no-repeat center left;
+    padding-top: 15px;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: #f7b52d;
+    text-decoration: none;
+
+    /*background: url(../../assets/images/signup-submit.jpeg) no-repeat center left;*/
 }
 
-.signup-box .form-group input {
+.signup-box .form-horizontal .control-group {
+    margin-bottom: 5px;
+}
+
+.signup-box .form-horizontal .control-label {
+    width: 100px;
+}
+
+.signup-box .form-horizontal .controls {
+    margin-left: 120px;
+}
+
+.signup-box .control-group input {
     border: 1px solid #fff;
     background: rgba(51, 51, 51, 0.2);
     color: #fff;
+    width: 120px;
+    height: 16px;
 }
 
 .signup-box .tel {
     color:#fff;
     font-size:36px;
-    padding: 20px 0;
+    margin-top: 35px;
+}
+.signup-box .tel > p {
+    line-height:35px;
 }
 .signup-box .form-box {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
+.signup-box .control-group.form-box-title {
+    color: #fff;
+    font-size:16px;
+    margin-bottom:15px;
+}
 
 .signup-box .control-label {
     color: #fff;
-    font-size:16px;
+    font-size:14px;
 }
-.signup-box .form-group .message {
-    color: #fff;
-    font-size:18px;
+
+.signup-box .btn-default {
+    padding-top:2px;
+    padding-bottom: 2px;
 }
+
 .signup-box .box-close > img {
     margin-top:20px;
+    margin-left: 20px;
     cursor:pointer;
 }
 
+.text-danger {
+    color: #ff0000;
+}
 
 
 @media (max-width: 768px) {
@@ -336,135 +385,40 @@ body {
         left: 170px;
         top:25px;
         font-size:14px;
-
-    }
-    .activity-info {
-        left: 120px;
-        top:140px;
-        font-size:12px;
-    }
-
-    .activity-info dd {
-        margin-left:0px;
     }
 }
 @media (min-width: 768px) {
-    .activity-date {
-        left: 170px;
-        top:25px;
-        font-size:14px;
 
-    }
-    .activity-info {
-        left: 120px;
-        top:140px;
-        font-size:12px;
-
-    }
 }
 
 @media (min-width: 992px) {
-    .activity-date {
-        left: 230px;
-        top:35px;
-        font-size:16px;
 
-    }
-    .activity-info {
-        left: 150px;
-        top:180px;
-        font-size:14px;
-
-    }
 }
 
 @media (min-width: 1200px) {
-    .banner-box {
-        /*margin: 0px auto 0px -240.5px;*/
-    }
 
-    .activity-date {
-        left: 200px;
-        top:65px;
-
-    }
-    .activity-info {
-        left: 250px;
-        top:360px;
-        font-size:16px;
-    }
 }
 
 /*w1024px body, .w1280px body, .w1440px body, .w1600px body, .w1920px*/
 
 @media (min-width: 1280px) {
-    .activity-date {
-        left: 280px;
-        top:40px;
-        font-size:20px;
 
-    }
-    .activity-info {
-        left: 240px;
-        top:240px;
-        font-size:14px;
-    }
 }
 
 
 @media (min-width: 1360px) {
-    .activity-date {
-        left: 310px;
-        top:45px;
-        font-size:20px;
 
-    }
-    .activity-info {
-        left: 240px;
-        top:250px;
-        font-size:14px;
-    }
 }
 
 @media (min-width: 1440px) {
-    .activity-date {
-        left: 310px;
-        top:45px;
-        font-size:24px;
 
-    }
-    .activity-info {
-        left: 300px;
-        top:260px;
-        font-size:16px;
-    }
 }
 
 
 @media (min-width: 1600px) {
-    .activity-date {
-        left: 350px;
-        top:55px;
-        font-size:24px;
 
-    }
-    .activity-info {
-        left: 350px;
-        top:300px;
-        font-size:16px;
-    }
 }
 
 @media (min-width: 1920px) {
-    .activity-date {
-        left: 430px;
-        top:65px;
-        font-size:24px;
 
-    }
-    .activity-info {
-        left: 400px;
-        top:360px;
-        font-size:16px;
-    }
 }

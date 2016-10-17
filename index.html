@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>高老庄吧</title>
 
     <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <link href="assets/css/special.css" rel="stylesheet">
 
@@ -16,7 +17,7 @@
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 
     <!--<script src="assets/js/respond.min.js"></script>-->
@@ -24,27 +25,19 @@
 <body>
 <div class="banner-box">
     <!--<img src="assets/images/banner1.jpg" class="img-responsive">-->
-    <div class="container">
+    <div class="container activity-date">
         <span>活动时间：10月29日</span></div>
-    <div class="container">
-        <dl class="dl-horizontal">
+    <div class="container activity-info">
+        <dl class="dl-horizontal span6">
             <dt>活动地点：</dt>
             <dd>地铁6/9号线白石桥南站B口，<br/>新世纪日航饭店二层（中华厅）</dd>
             <dt>咨询电话：</dt>
             <dd>010—52167500</dd>
         </dl>
     </div>
-
-    <!--<div class="activity-date">-->
-    <!--活动时间：10月29日-->
-    <!--</div>-->
-    <div class="activity-info">
-
-
-    </div>
 </div>
-<div class="banner-box">
-    <img src="assets/images/banner2.jpg" class="img-responsive">
+<div class="banner-box1">
+    <!--<img src="assets/images/banner2.jpg" class="img-responsive">-->
 </div>
 <div class="special-sale-wrapper">
     <div class="special-sale-box">
@@ -117,7 +110,7 @@
         </a>
         <div class="brand-item-text">
             <i>
-                <img src="assets/icons/brand-fitup-service-i.png" class="img-responsive"/>
+                <img src="assets/icons/brand-fitup-service-i.jpg" class="img-responsive"/>
             </i>
             <ul>
                 <li>【装修服务】高老庄吧整装服务、高老庄吧施工服务、高老庄吧设计服务</li>
@@ -244,24 +237,26 @@
             <p class="text-danger"> 注意：为了保障网友利益， 网友缴纳团购定金一定要要求商家使用高老庄吧统一团购定金单，此定金单是您团购的唯一凭证。无此单据，高老庄吧不负责售后。</p>
         </div>
         <div role="tabpanel" class="tab-pane fade" id="route" aria-labelledby="profile-tab">
-            <div class="col-md-8">
-                <p class="text-danger">
+            <div class="row-fluid">
+                <div class="span8">
+                    <p class="text-danger">
 
-                    新世纪日航饭店二层（中华厅）（海淀区白石桥首都体育馆南路6号 首都体育馆南门对面）</p>
-                <p> 地铁：6号线、9号线 白石桥南B口出，北行300米右转即到； 4号线 国家图书馆C口出，南行600米即到
-                </p>
-                <p>
-                    公交：白石桥南站 86、92、114、118、320、332、653、717、特6路
-                    白石桥东站 27、105、107、111、319、332、334、347、360、362、534、563、608、360快、632路
-                </p>
-                <p>
-                    自驾：1、首都体育馆南路（路东）行至白石新桥东南角即是。</p>
-                <p>2、西直门外大街（路南）行至白石新桥东南角即是。（白石桥家乐福、首都体育馆正门（南门）对面即是）</p>
-                <p class="text-danger">（注：停在酒店会场北对面的首都体育馆旁边停车场方便，停车费便宜些）</p>
-            </div>
-            <div class="col-md-4">
-                <img src="assets/images/map.png" class="img-responsive">
+                        新世纪日航饭店二层（中华厅）（海淀区白石桥首都体育馆南路6号 首都体育馆南门对面）</p>
+                    <p> 地铁：6号线、9号线 白石桥南B口出，北行300米右转即到； 4号线 国家图书馆C口出，南行600米即到
+                    </p>
+                    <p>
+                        公交：白石桥南站 86、92、114、118、320、332、653、717、特6路
+                        白石桥东站 27、105、107、111、319、332、334、347、360、362、534、563、608、360快、632路
+                    </p>
+                    <p>
+                        自驾：1、首都体育馆南路（路东）行至白石新桥东南角即是。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、西直门外大街（路南）行至白石新桥东南角即是。（白石桥家乐福、首都体育馆正门（南门）对面即是）</p>
+                    <p class="text-danger">（注：停在酒店会场北对面的首都体育馆旁边停车场方便，停车费便宜些）</p>
+                </div>
+                <div class="span4">
+                    <img src="assets/images/map.png" class="img-responsive">
 
+                </div>
             </div>
         </div>
 
@@ -270,36 +265,44 @@
 <div class="signup-box">
     <div class="signup-back">
         <div class="signup-back-text">
-            <form class="form-horizontal">
-                <div class="col-md-3">
+            <form class="form-horizontal row-fluid">
+                <div class="span3">
 
                 </div>
-                <div class="col-md-3 tel">
-                    <div> 装修咨询</div>
-                    <div> 010-5126 7500</div>
+                <div class="span3 tel">
+                    <p> 装修咨询</p>
+                    <p> 010-5126 7500</p>
                 </div>
-                <div class="col-md-3 form-box">
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">客户姓名</label>
-                        <div class="col-md-6">
+
+                <div class="span3 form-box">
+
+                    <div class="control-group text-center form-box-title">
+                        我要报名
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">客户姓名</label>
+                        <div class="controls">
                             <input type="text" name="name" class="form-control input-sm"/>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-md-4 control-label">客户电话</label>
-                        <div class="col-md-6">
+
+                    <div class="control-group">
+                        <label class="control-label">客户电话</label>
+                        <div class="controls">
                             <input type="text" name="tel" class="form-control input-sm"/>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <span class="message">为了更好的服务您，请填写团购报名信息</span>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <button class="btn btn-default" type="submit">提交</button>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <a>&nbsp;</a><b class="box-close"><img src="assets/images/signup-close.png"></b>
+                <div class="span3">
+                    <a href>在线<br/>咨询</a><b class="box-close"><img src="assets/images/signup-close.png"></b>
                 </div>
-
             </form>
 
 
@@ -307,13 +310,14 @@
 
     </div>
     <div class="signup-back-default">
-        <img src="assets/images/signup-submit.jpeg">
+        <!--<img src="assets/images/signup-submit.jpeg">-->
+        在线<br/>咨询
 
     </div>
 </div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="assets/js/bootstrap.min.js"></script>
 

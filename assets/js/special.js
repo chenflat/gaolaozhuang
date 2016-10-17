@@ -5,26 +5,19 @@
 (function () {
     'use strict';
 
-    //
-    // $(".box-close").click(function () {
-    //     $(".signup-box").hide();
-    // });
-
-
-
-
-    about();
-    function about(){
-        //预约 - 浮动显示
+    signup();
+    function signup(){
+        //在线咨询 - 浮动显示
+        $(".signup-box").show();
         $(window).scroll(function () {
             var scroHs = $(this).scrollTop();
-            if (scroHs > 100) {
+            if (scroHs >= 0) {
                 $(".signup-box").show();
             } else {
                 $(".signup-box").hide();
             }
         })
-        //预约关闭
+        //在线咨询关闭
         $(".box-close").click(function () {
             $(".signup-box").animate({
                 left: "-100%",
@@ -38,7 +31,7 @@
                 });
             })
         })
-        //预约打开
+        //在线咨询打开
         $(".signup-back-default").click(function () {
             $(".signup-box").animate({
                 left: "-100%",
