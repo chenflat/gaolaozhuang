@@ -2,7 +2,12 @@ body {
     overflow-x: hidden;
 }
 
-
+.banner-box {
+    background:url("../../assets/images/banner1.jpg") no-repeat top center;
+    max-width: 1920px;
+    max-height:904px;
+    height:904px;
+}
 
 /**删除线*/
 .line-through {
@@ -17,7 +22,7 @@ body {
 
 .special-sale-box {
     width: 1210px;
-    height: 707px;
+    height: 590px;
     margin: 0 auto;
     text-align: center;
 }
@@ -39,7 +44,7 @@ body {
     position: relative;
     list-style: none;
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
 
 }
 
@@ -69,6 +74,9 @@ body {
     margin: 0 auto;
 }
 
+.contact-box {
+    margin-bottom: 180px;
+}
 .brand-price-download {
     text-align: center;
     margin-bottom: 15px;

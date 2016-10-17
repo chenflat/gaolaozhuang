@@ -18,7 +18,7 @@
         //预约 - 浮动显示
         $(window).scroll(function () {
             var scroHs = $(this).scrollTop();
-            if (scroHs > 350) {
+            if (scroHs > 100) {
                 $(".signup-box").show();
             } else {
                 $(".signup-box").hide();
